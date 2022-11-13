@@ -167,8 +167,10 @@ ul.primary li:hover > a{
   font-weight: bold;
 }
 
-
-
+img{
+	float: right;
+	margin-right: 20px;
+}
 
 .line {
   border-top: 3px solid white;
@@ -318,15 +320,6 @@ h1
 {
 	float: right;
 }
-
-/*
-.kep a{
-	color: #ee5d6c;
-}
-
-.kep a:hover{
-	color: #6a0d83;
-}*/
 
 .szoveg a:link, .szoveg a:visited {
     color: #ee5d6c;
