@@ -319,10 +319,38 @@ h1
 	float: right;
 }
 
+/*
 .kep a{
 	color: #ee5d6c;
 }
 
 .kep a:hover{
 	color: #6a0d83;
+}*/
+
+.szoveg a:link, .szoveg a:visited {
+    color: #ee5d6c;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+.szoveg a:hover {
+    color: #6a0d83;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    cursor: default;
+    -webkit-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+    -o-transform: scale(1.5,1.5);
+    -ms-transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5);
 }
